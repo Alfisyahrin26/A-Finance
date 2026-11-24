@@ -41,16 +41,30 @@
 <section class="panel report-panel">
     <h2>Rekap Keuangan</h2>
 
-    <label for="reportPeriod">Periode Laporan</label>
-    <select id="reportPeriod">
-        <option value="daily">Harian</option>
-        <option value="weekly">7 Hari Terakhir</option>
-    </select>
+    <div class="report-tabs">
+        <button type="button" id="dailyTab" class="active">
+            Harian
+        </button>
+
+        <button type="button" id="weeklyTab">
+            Mingguan
+        </button>
+    </div>
 
     <label for="reportDate">Pilih Tanggal</label>
     <input type="date" id="reportDate">
 
-    <p id="reportRange" class="report-range"></p>
+    <div id="weekNavigation" hidden>
+        <button type="button" id="previousWeek">
+            Minggu Sebelumnya
+        </button>
+
+        <span id="weekLabel"></span>
+
+        <button type="button" id="nextWeek">
+            Minggu Berikutnya
+        </button>
+    </div>
 
     <div class="summary">
         <div class="summary-card income">
@@ -66,7 +80,7 @@
 
     <div class="report-net">
         <p>Hasil Bersih</p>
-        <h2 id="reportNet">Rp0</h2>
+        <h2 id="reportBalance">Rp0</h2>
     </div>
 </section>
 
