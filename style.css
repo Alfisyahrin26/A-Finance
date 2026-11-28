@@ -543,7 +543,7 @@ textarea:focus {
 
 /* FORCE A-FINANCE VECTOR BACKGROUND */
 body {
-    background-image: url("./a-finance-vector-background.svg") !important;
+    background-image: url("./a-finance-vector-background.svg?v=2") !important;
     background-size: cover !important;
     background-position: center top !important;
     background-repeat: no-repeat !important;
