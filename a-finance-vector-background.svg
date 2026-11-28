@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#58b8f7"/><stop offset=".55" stop-color="#d9f0ff"/><stop offset="1" stop-color="#eef7ff"/>
+  </linearGradient>
+  <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#42a9ef"/><stop offset="1" stop-color="#07519b"/></linearGradient>
+  <linearGradient id="wallet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#237ed0"/><stop offset="1" stop-color="#063d82"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff1a5"/><stop offset=".45" stop-color="#ffbd35"/><stop offset="1" stop-color="#d9790c"/></linearGradient>
+  <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="2.8" fill="#fff" opacity=".65"/></pattern>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#07519b" flood-opacity=".22"/></filter>
+</defs>
+<rect width="1600" height="1000" fill="url(#sky)"/>
+<!-- atmospheric beams -->
+<path d="M220 230L520 0M1190 260L1490 0M1080 520L1390 300" stroke="#fff" stroke-width="12" opacity=".18" stroke-linecap="round"/>
+<path d="M70 90h180M105 120h120M1330 130h170" stroke="#fff" stroke-width="5" opacity=".22" stroke-linecap="round"/>
+<rect x="0" y="40" width="240" height="190" fill="url(#dots)" opacity=".8"/>
+<rect x="1320" y="300" width="230" height="160" fill="url(#dots)" opacity=".7"/>
+<!-- clouds -->
+<g fill="#fff" opacity=".62">
+ <path d="M-60 365q30-65 100-40 25-95 125-55 35 15 43 60 75-15 95 45 10 35-25 50H-60z"/>
+ <path d="M260 255q25-45 75-30 25-65 90-35 30 14 38 48 60-10 75 35H260z"/>
+ <path d="M1240 250q30-55 90-35 30-80 105-42 30 15 40 55 65-12 95 35H1240z"/>
+ <path d="M1160 410q20-40 65-25 22-55 78-30 25 12 32 42 50-8 65 30H1160z"/>
+</g>
+<!-- birds -->
+<g fill="none" stroke="#1674c3" stroke-width="5" stroke-linecap="round" opacity=".7"><path d="M180 280q18-20 36 0 18-20 36 0"/><path d="M1370 330q18-20 36 0 18-20 36 0"/></g>
+<!-- distant city -->
+<g fill="#4d9de0" opacity=".45">
+ <path d="M1190 720V570h45v-80h32v230zm90 0V535h38v-65h28v250zm92 0V500h55v-95h32v315zm100 0V560h48v-75h32v235z"/>
+</g>
+<!-- foreground city -->
+<g fill="#176fc0" opacity=".88">
+ <path d="M1230 760V590h55v-65h35v235z"/>
+ <path d="M1320 760V510h42v-90h28v340z"/>
+ <path d="M1395 760V455h60v-80h30v385z"/>
+ <path d="M1490 760V535h48v-65h38v290z"/>
+ <path d="M1160 760V640h38v-45h28v165z"/>
+</g>
+<g fill="#bfe6ff" opacity=".85">
+ <path d="M1245 620h10v14h-10zm24 0h10v14h-10zm-24 28h10v14h-10zm24 0h10v14h-10z"/>
+ <path d="M1333 550h10v16h-10zm22 0h10v16h-10zm-22 30h10v16h-10zm22 0h10v16h-10z"/>
+ <path d="M1410 490h12v18h-12zm25 0h12v18h-12zm-25 32h12v18h-12zm25 0h12v18h-12z"/>
+ <path d="M1505 580h10v14h-10zm22 0h10v14h-10zm-22 27h10v14h-10z"/>
+</g>
+<!-- rising chart arrow -->
+<path d="M1080 680l100-65 65 12 120-150" fill="none" stroke="#1684e2" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity=".72"/>
+<path d="M1334 470l43-20-7 49" fill="none" stroke="#1684e2" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity=".72"/>
+<!-- floating coins -->
+<g filter="url(#shadow)">
+ <g transform="translate(250 460) rotate(-22)"><ellipse cx="0" cy="0" rx="48" ry="58" fill="#d88916"/><ellipse cx="0" cy="-7" rx="48" ry="58" fill="url(#gold)" stroke="#fff0a0" stroke-width="5"/><ellipse cx="0" cy="-7" rx="34" ry="43" fill="none" stroke="#fff0a0" stroke-width="4"/><text x="0" y="7" text-anchor="middle" font-size="36" font-weight="bold" fill="#fff8d7">Rp</text></g>
+ <g transform="translate(145 620) rotate(18) scale(.78)"><ellipse cx="0" cy="0" rx="48" ry="58" fill="#d88916"/><ellipse cx="0" cy="-7" rx="48" ry="58" fill="url(#gold)" stroke="#fff0a0" stroke-width="5"/><ellipse cx="0" cy="-7" rx="34" ry="43" fill="none" stroke="#fff0a0" stroke-width="4"/><text x="0" y="7" text-anchor="middle" font-size="36" font-weight="bold" fill="#fff8d7">Rp</text></g>
+ <g transform="translate(420 690) rotate(-12) scale(.58)"><ellipse cx="0" cy="0" rx="48" ry="58" fill="#d88916"/><ellipse cx="0" cy="-7" rx="48" ry="58" fill="url(#gold)" stroke="#fff0a0" stroke-width="5"/><ellipse cx="0" cy="-7" rx="34" ry="43" fill="none" stroke="#fff0a0" stroke-width="4"/><text x="0" y="7" text-anchor="middle" font-size="36" font-weight="bold" fill="#fff8d7">Rp</text></g>
+</g>
+<!-- wallet and leaves -->
+<g filter="url(#shadow)" transform="translate(100 690) rotate(-8)">
+ <rect x="0" y="0" width="290" height="210" rx="42" fill="#063d82"/>
+ <rect x="18" y="-18" width="260" height="205" rx="38" fill="url(#wallet)" stroke="#70c5ff" stroke-width="8"/>
+ <path d="M30 45q0-28 35-28h185q28 0 28 28v90q0 28-28 28H65q-35 0-35-35z" fill="#1d70bd" opacity=".75"/>
+ <rect x="195" y="65" width="115" height="75" rx="24" fill="#0b4c91" stroke="#8bd4ff" stroke-width="7"/>
+ <circle cx="225" cy="103" r="10" fill="#c9eeff"/>
+</g>
+<g fill="#1680c9" opacity=".8">
+ <path d="M45 850q-55-80-15-135 40 60 15 135zm55 45q-5-85 60-100-10 75-60 100zm300 0q0-90 75-105-20 75-75 105z"/>
+ <path d="M70 900q-30-70 20-105 25 65-20 105z"/>
+</g>
+<!-- layered rolling hills / waves -->
+<path d="M0 820q180-120 360-30t360 0 360-5 520-30v245H0z" fill="#62baf0" opacity=".9"/>
+<path d="M0 875q200-110 390-25t380 5 400-45 430-5v195H0z" fill="url(#wave)"/>
+<path d="M0 930q180-75 370-10t390 0 420-35 420 0v115H0z" fill="#073f86" opacity=".92"/>
+<path d="M0 850q180-65 340 0t360 0 400-5 500 0" fill="none" stroke="#c7edff" stroke-width="9" opacity=".7"/>
+<path d="M0 910q180-65 340 0t360 0 400-5 500 0" fill="none" stroke="#5ab8ef" stroke-width="7" opacity=".55"/>
+<rect x="60" y="900" width="170" height="80" fill="url(#dots)" opacity=".6"/>
+</svg>
